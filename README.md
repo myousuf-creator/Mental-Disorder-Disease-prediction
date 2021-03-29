@@ -10,8 +10,10 @@ Scikit-learn, Flask, Pandas, Numpy
  1. app.py - This contains Flask APIs that receives  details through API calls, computes the precited value based on our model and returns it.
 
 
-33 mental disorders of 12 domains will be predicted using datasets built on real life case studies. These disorders are grouped into broad generic domains. 
+33 mental disorders of 12 domains are predicted using datasets built on real life case studies. These disorders are grouped into broad generic domains. Each domain is associated with one or more disorders for that given domain as depicted in the following table.  
 
+
+Table
 ADHD- ADHD Domain
 Dementia - Cognitive Domain
 Schizophrenia - Psychotic Domain
