@@ -1,0 +1,23 @@
+
+#1 Install Libraries
+pip install -r requirements.txt
+
+#2 Train the pipeline
+python train_pipeline
+
+#3 Test the accuracy
+python test_accuracy.py
+
+
+###Run the Flask App###
+python app.py
+(keep the server on)
+
+###send post request to the API Endpoint###
+python request.py
+
+
+##End##
+Turn off the app.
+
+
